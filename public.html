@@ -7,7 +7,7 @@
 	<script>
 		if ("serviceWorker" in navigator) {
 			window.addEventListener("load", function () {
-				navigator.serviceWorker.register("/PWA.BlackC4t/sw.js", {scope: "/PWA.BlackC4t"}).then(
+				navigator.serviceWorker.register("/PWA.BlackC4t/sw.js", {scope: "/PWA.BlackC4t/"}).then(
 					function (registration) {
 						// Registration was successful
 						console.log("ServiceWorker registration successful with scope: ", registration.scope);
