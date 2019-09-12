@@ -1,4 +1,4 @@
-﻿const cacheVersion = "blackc4t";
+﻿const cacheVersion = "fredhappyface";
 const urlsToPrefetch = [
   "/PWA.BlackC4t/"
 ];
