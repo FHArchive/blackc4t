@@ -21,14 +21,14 @@
 		}
 
 		var DEFAULT = {
-			theme: 'light',
+			theme: 'auto',
 			text: '1'
 		};
 
 		var data;
 		/* read data from local storage */
-		if (localStorage.getItem('com.fredhappyface.blackc4t') !== null) {
-			data = JSON.parse(localStorage.getItem('com.fredhappyface.blackc4t'));
+		if (localStorage.getItem('com.fredhappyface') !== null) {
+			data = JSON.parse(localStorage.getItem('com.fredhappyface'));
 		}
 		else {
 			console.log('Your Browser does not support local storage or no data saved. Loading default data.');
@@ -79,12 +79,12 @@
 						<h2>BlackC4t</h2>
 					</div>
 					<div class="pair  right">
-						<a href="info.html">
+						<a href="https://fredhappyface.github.io/PWA.Home/info.html">
 							<div class="img--scale app__icon" style="width: 2.5em;">
 								<img src="images/pageicons/round-info-black-24px.svg" alt="Information">
 							</div>
 						</a>
-						<a href="settings.html">
+						<a href="https://fredhappyface.github.io/PWA.Home/settings.html">
 							<div class="img--scale app__icon" style="width: 2.5em;">
 								<img src="images/pageicons/round-settings-black-24px.svg" alt="settings">
 							</div>
