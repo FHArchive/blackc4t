@@ -1,26 +1,26 @@
 <p float="left">
-<img src="https://img.shields.io/github/languages/top/fredhappyface/FredHappyface.github.io.svg?style=flat-square" alt="Github top language">
-<img src="https://img.shields.io/codacy/grade/15e9d901702e4b58a87681ab39c5ae49.svg?style=flat-square" alt="Codacy grade">
-<img src="https://img.shields.io/codacy/coverage/15e9d901702e4b58a87681ab39c5ae49.svg?style=flat-square" alt="Codacy coverage">
-<img src="https://img.shields.io/github/repo-size/fredhappyface/FredHappyface.github.io.svg?style=flat-square" alt="Repository size">
-<img src="https://img.shields.io/github/issues/fredhappyface/FredHappyface.github.io.svg?style=flat-square" alt="Issues">
-<img src="https://img.shields.io/github/license/fredhappyface/FredHappyface.github.io.svg?style=flat-square" alt="License">
-<img src="https://img.shields.io/github/commit-activity/m/fredhappyface/FredHappyface.github.io.svg?style=flat-square" alt="Commit activity">
-<img src="https://img.shields.io/github/last-commit/fredhappyface/FredHappyface.github.io.svg?style=flat-square" alt="Last commit">
+<img src="https://img.shields.io/github/languages/top/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="Github top language">
+<img src="https://img.shields.io/codacy/grade/.svg?style=flat-square" alt="Codacy grade">
+<img src="https://img.shields.io/codacy/coverage/.svg?style=flat-square" alt="Codacy coverage">
+<img src="https://img.shields.io/github/repo-size/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="Repository size">
+<img src="https://img.shields.io/github/issues/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="Issues">
+<img src="https://img.shields.io/github/license/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="License">
+<img src="https://img.shields.io/github/commit-activity/m/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="Commit activity">
+<img src="https://img.shields.io/github/last-commit/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="Last commit">
 </p>
 
 
-# FredHappyface.github.io
+# PWA.BlackC4t
 
 This website exists to provide a proof of concept for various encryption methods and password generators that are written in Javascript.
 
-Find the site on https://FredHappyface.github.io
+Find the site on https://FredHappyface.github.io/PWA.BlackC4t
 
 <img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
 
 
 ## Language information
-FredHappyface.github.io is built with HTML5, CSS3, JavaScript and JQuery3.4.0
+PWA.BlackC4t is built with HTML5, CSS3 and JavaScript
 
 ## Changelog
 
