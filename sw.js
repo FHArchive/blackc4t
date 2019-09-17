@@ -14,8 +14,8 @@ this.addEventListener("install", function(event) {
 });
 
 
-this.addEventListener("fetch", event => {
-  let responsePromise = caches.match(event.request).then(response => {
+this.addEventListener("fetch", (event) => {
+  let responsePromise = caches.match(event.request).then((response) => {
     return response || fetch(event.request);
   });
 
