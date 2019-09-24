@@ -12,11 +12,11 @@
 
 # PWA.BlackC4t
 
+<img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
+
 This website exists to provide a proof of concept for various encryption methods and password generators that are written in Javascript.
 
 Find the site on https://FredHappyface.github.io/PWA.BlackC4t
-
-<img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
 
 
 ## Language information
