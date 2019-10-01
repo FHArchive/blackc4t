@@ -1,7 +1,7 @@
 <p float="left">
 <img src="https://img.shields.io/github/languages/top/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="Github top language">
-<img src="https://img.shields.io/codacy/grade/.svg?style=flat-square" alt="Codacy grade">
-<img src="https://img.shields.io/codacy/coverage/.svg?style=flat-square" alt="Codacy coverage">
+<img src="https://img.shields.io/codacy/grade/39cdf0f7471e42c1ab41cb6397fc5165.svg?style=flat-square" alt="Codacy grade">
+<img src="https://img.shields.io/codacy/coverage/39cdf0f7471e42c1ab41cb6397fc5165.svg?style=flat-square" alt="Codacy coverage">
 <img src="https://img.shields.io/github/repo-size/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="Repository size">
 <img src="https://img.shields.io/github/issues/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="Issues">
 <img src="https://img.shields.io/github/license/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="License">

@@ -19,7 +19,10 @@ const urlsToPrefetch = [
   "/css/settings.css",
   "/scripts/navbar.js",
   "/scripts/script.js",
-  "/scripts/settings.js"
+  "/scripts/settings.js",
+  "/images/pageicons/info.svg",
+  "/images/pageicons/settings.svg",
+  "/images/pageicons/keyboard_backspace.svg"
 ];
 
 

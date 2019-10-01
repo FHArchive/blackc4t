@@ -6,24 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="https://fredhappyface.github.io/css/main.css">
 	<script>
 		if ("serviceWorker" in navigator) {
-			window.addEventListener("load", function () {
-				navigator.serviceWorker.register("/PWA.BlackC4t/sw.js", {scope: "/PWA.BlackC4t/"}).then(
-					function (registration) {
-						// Registration was successful
-						console.log("ServiceWorker registration successful with scope: ", registration.scope);
-					},
-					function (err) {
-						// registration failed :(
-						console.log("ServiceWorker registration failed: ", err);
-					});
-			});
+				navigator.serviceWorker.register("/PWA.BlackC4t/sw.js", {scope: "/PWA.BlackC4t/"});
 		}
-
-		var DEFAULT = {
-			theme: 'auto',
-			text: '1'
-		};
-
 		var data;
 		/* read data from local storage */
 		if (localStorage.getItem('com.fredhappyface') !== null) {
@@ -31,12 +15,13 @@
 		}
 		else {
 			console.log('Your Browser does not support local storage or no data saved. Loading default data.');
-			data = DEFAULT;
+			data = {
+				theme: 'auto',
+				text: '1'
+			};
 		}
-
 		// set the theme to the appropriate css
 		document.head.innerHTML += '<link rel="stylesheet" href="https://fredhappyface.github.io/css/theme/' + data.theme + '.css"  id="theme">';
-
 		// set the text size
 		var declaration = document.styleSheets[0].cssRules[0].style;
 		declaration.setProperty("--text-mod", data.text)
@@ -81,12 +66,12 @@
 				<div class="pair  right">
 					<a href="https://fredhappyface.github.io/PWA.Home/info.html">
 						<div class="img--scale app__icon" style="width: 2.5em;">
-							<img src="images/pageicons/round-info-white-24px.svg" alt="Information">
+							<img src="https://fredhappyface.github.io/images/pageicons/info.svg" alt="Information">
 						</div>
 					</a>
 					<a href="https://fredhappyface.github.io/PWA.Home/settings.html">
 						<div class="img--scale app__icon" style="width: 2.5em;">
-							<img src="images/pageicons/round-settings-white-24px.svg" alt="settings">
+							<img src="https://fredhappyface.github.io/images/pageicons/settings.svg" alt="settings">
 						</div>
 					</a>
 				</div>
