@@ -6,7 +6,7 @@
   "scope": "/PWA.BlackC4t/",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#000000",
+  "theme_color": "#282C34",
   "icons": [
     {
       "src": "/PWA.BlackC4t/images/appicons/round-192.png",

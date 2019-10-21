@@ -22,7 +22,8 @@ const urlsToPrefetch = [
   "/scripts/settings.js",
   "/images/pageicons/info.svg",
   "/images/pageicons/settings.svg",
-  "/images/pageicons/keyboard_backspace.svg"
+  "/images/pageicons/keyboard_backspace.svg",
+  "/images/appicons/squircle-256.png"
 ];
 
 
