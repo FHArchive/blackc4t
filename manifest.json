@@ -3,7 +3,6 @@
   "short_name": "BlackC4t",
   "lang": "en-GB",
   "start_url": "/PWA.BlackC4t/",
-  "scope": "/PWA.BlackC4t/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#282C34",
