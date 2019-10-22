@@ -11,10 +11,10 @@
 		/* read data from local storage */
 		var data = JSON.parse(localStorage.getItem('com.fredhappyface'));
 		// set the theme to the appropriate css
-		document.head.innerHTML += '<link rel="stylesheet" href="https://fredhappyface.github.io/css/theme/' + (data.theme ? data.theme : "auto") + '.css"  id="theme">';
+		document.head.innerHTML += '<link rel="stylesheet" href="https://fredhappyface.github.io/css/theme/' + (data && data.theme ? data.theme : "auto") + '.css"  id="theme">';
 		// set the text size
 		var declaration = document.styleSheets[0].cssRules[0].style;
-		declaration.setProperty("--text-mod", (data.text ? data.text : "1"))
+		declaration.setProperty("--text-mod", (data && data.text ? data.text : "1"))
 	</script>
 
 	<meta name="Description" content="Author: FredHappyface; Category: Cryptography,
