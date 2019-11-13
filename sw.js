@@ -1,4 +1,4 @@
-﻿const cacheVersion = "BlackC4t-2019.11.1";
+﻿const cacheVersion = "BlackC4t-2019.11.2";
 const urlsToPrefetch = [
 	"/PWA.BlackC4t/",
 
