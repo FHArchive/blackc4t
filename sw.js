@@ -1,4 +1,4 @@
-﻿const cacheVersion = "fredhappyface";
+﻿const cacheVersion = "BlackC4t-2019.11.1";
 const urlsToPrefetch = [
 	"/PWA.BlackC4t/",
 
@@ -29,7 +29,7 @@ const urlsToPrefetch = [
 
 
 
-this.addEventListener("install", function (event) {
+self.addEventListener("install", function (event) {
 	event.waitUntil(
 		caches.open(cacheVersion).then(function (cache) {
 			return cache.addAll(urlsToPrefetch);
@@ -37,20 +37,23 @@ this.addEventListener("install", function (event) {
 	);
 });
 
-this.addEventListener("fetch", function (event) {
-	event.respondWith(
-		fetch(event.request).catch(function () {
-			return caches.match(event.request);
+self.addEventListener("activate", function(event) {
+	event.waitUntil(
+		caches.keys().then(function(keyList){
+			return Promise.all(keyList.map(function(key){
+				if (key !== cacheVersion){
+					return caches.delete(key);
+				}
+			}));
 		})
 	);
+	return self.clients.claim();
 });
 
-/*
-this.addEventListener("fetch", (event) => {
+self.addEventListener("fetch", (event) => {
   let responsePromise = caches.match(event.request).then((response) => {
     return response || fetch(event.request);
   });
 
   event.respondWith(responsePromise);
 });
-*/
