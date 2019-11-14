@@ -1,8 +1,9 @@
-﻿const cacheVersion = "BlackC4t-2019.11.4";
+﻿const cacheVersion = "BlackC4t-2019.11.5";
 const urlsToPrefetch = [
 	"/PWA.BlackC4t/",
 	"/PWA.BlackC4t/manifest.json",
 	"/PWA.BlackC4t/images/appicons/squircle-256.png",
+	"/PWA.BlackC4t/images/page/shiba-inu-wide.jpg",
 
 	"/PWA.BlackC4t/index.html",
 	"/PWA.BlackC4t/2kotp.html",
