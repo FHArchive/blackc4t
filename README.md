@@ -14,7 +14,11 @@
 
 <img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
 
-This website exists to provide a proof of concept for various encryption methods and password generators that are written in Javascript.
+Provides a proof of concept for various encryption methods and
+password generators. These are written in Javascript. BlackC4t
+originally used brython to encrypt. Several redesigns as well
+as addition of a two key one time pad page, a simple
+password generator and a public key cryptography page.
 
 Find the site on https://FredHappyface.github.io/PWA.BlackC4t
 
@@ -103,30 +107,50 @@ MIT License
 Copyright (c) Kieran W
 (See the [LICENSE](/LICENSE.md) for more information.)
 
-
 ## Browser Support
 
 ### Supported
-This PWA is optimised for the following browsers and has been tested on them:
+FredHappyface PWAs are built with the following browsers in mind:
+Google Chrome
 
-|Google Chrome|Chromium Based Browsers|Safari|
-|:-:|:-:|:-:|
-| <img src="readme-assets/browsers/chrome.png" alt="Google Chrome" width="200"> | <img src="readme-assets/browsers/chromium.png" alt="Chromuim" width="200"> | <img src="readme-assets/browsers/safari.png" alt="Safari" width="200"> |
+<img src="readme-assets/browsers/chrome.png" alt="Google Chrome" width="200">
 
-### Partial Support
-This PWA should function on these browsers but some elements may look odd:
+Chromium Based Browsers
 
-|Firefox|Microsoft Edge|
-|:-:|:-:|
-| <img src="readme-assets/browsers/firefox.png" alt="Firefox" width="200"> | <img src="readme-assets/browsers/ms-edge.png" alt="Microsoft Edge" width="200"> |
+<img src="readme-assets/browsers/chromium.png" alt="Chromium" width="200">
 
-### Not Supported
-This PWA is not supported on these browsers, functionality and visuals may not work as expected:
+Safari
 
-|Internet Explorer|TOR Browser|Other Browsers|
-|:-:|:-:|:-:|
-| <img src="readme-assets/browsers/ie.png" alt="Internet Explorer" width="200"> | <img src="readme-assets/browsers/tor.png" alt="TOR Browser" width="200"> | <img src="readme-assets/browsers/browser.png" alt="Other Browsers" width="200"> |
+<img src="readme-assets/browsers/safari.png" alt="Safari" width="200">
 
+Microsoft Edge (Chromium)
+
+<img src="readme-assets/browsers/edge.png" alt="Microsoft Edge (Chromium)" width="200">
+
+
+### Unsupported
+FredHappyface PWAs are not designed for the following browsers
+(though they may still run as expected in some cases, such as on
+Firefox). Functionality and visuals may not work as expected:
+Firefox
+
+<img src="readme-assets/browsers/firefox.png" alt="Firefox" width="200">
+
+Microsoft Edge (EdgeHTML)
+
+<img src="readme-assets/browsers/ms-edge.png" alt="Microsoft Edge (EdgeHTML)" width="200">
+
+Internet Explorer
+
+<img src="readme-assets/browsers/ie.png" alt="Internet Explorer" width="200">
+
+TOR Browser
+
+<img src="readme-assets/browsers/tor.png" alt="TOR Browser" width="200">
+
+Other Browsers
+
+<img src="readme-assets/browsers/browser.png" alt="Other Browsers" width="200">
 
 
 ## Screenshots
@@ -152,12 +176,3 @@ This PWA is not supported on these browsers, functionality and visuals may not w
 |Light|Dark|Black|
 |:-:|:-:|:-:|
 | <img src="readme-assets/screenshots/themes/theme-1.png" alt="Theme 1" width="200"> | <img src="readme-assets/screenshots/themes/theme-2.png" alt="Theme 2" width="200"> | <img src="readme-assets/screenshots/themes/theme-3.png" alt="Theme 3" width="200"> |
-
-
-## Limited Support
-Expect this project to be supported for approximately 6 months (for bug-fixes only).
- Note that this is not guaranteed. Create an issue for bugs
- (as this project is carried out in spare time, you may have
-to wait for a few days)
-
-<img src="readme-assets/support/partial.png" alt="Limited Support" width="600">
