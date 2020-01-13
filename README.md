@@ -12,7 +12,7 @@
 
 # PWA.BlackC4t
 
-<img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
+<img src="readme-assets/icons/name.png" alt="Project Icon" width="750">
 
 Provides a proof of concept for various encryption methods and
 password generators. These are written in Javascript. BlackC4t
