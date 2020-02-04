@@ -40,22 +40,7 @@
 				"fileName": "PWA.BlackC4t/scripts/public.js"
 			},
 			{
-				"fileName": "css/theme/auto.css"
-			},
-			{
-				"fileName": "css/theme/black.css"
-			},
-			{
-				"fileName": "css/theme/dark.css"
-			},
-			{
-				"fileName": "css/theme/light.css"
-			},
-			{
 				"fileName": "css/main.css"
-			},
-			{
-				"fileName": "css/settings.css"
 			},
 			{
 				"fileName": "scripts/navbar.js"
@@ -64,10 +49,10 @@
 				"fileName": "scripts/script.js"
 			},
 			{
-				"fileName": "scripts/settings.js"
+				"fileName": "fonts/FiraSansNF.woff2"
 			},
 			{
-				"fileName": "fonts/FiraSansNF.woff2"
+				"fileName": "fonts/FiraCode.woff2"
 			}
 		]
 	},
