@@ -1,0 +1,46 @@
+<title>Two Key</title>
+<section>
+	<div class="img--content-wide">
+		<img src="images/page/shiba-inu-wide.jpg" alt="Shiba Inu">
+	</div>
+	<h1>Two Key (Shibe)</h1>
+</section>
+
+<section>
+	<form>
+		<label for="fieldkey">
+			Key:
+		</label>
+		<input type="text" placeholder="Input Key 1" id="fieldkey">
+		<label for="fieldkey">
+			Second Key
+		</label>
+		<input type="text" placeholder="Input Key 2" id="fieldkey2">
+		<label for="input">
+			 Message:
+		</label>
+		<textarea placeholder="Input Message" rows="4" cols="1" id="input"></textarea>
+		<p>Encrypt or Decrypt:</p>
+		<label class="css-radio" for="rad">
+			Encrypt text
+			<input type="radio" name="var" value="1" id="rad" checked="checked">
+			<span class="check-mark"></span>
+		</label>
+		<label class="css-radio" for="rad-other">
+			Decrypt text
+			<input type="radio" name="var" value="2" id="rad-other">
+			<span class="check-mark"></span>
+		</label>
+		<label for="output">
+			Output:
+		</label>
+		<textarea rows="4" cols="1" id="output"></textarea>
+	</form>
+
+	<div class="pair">
+		<button onclick="otp(2)">&#xf489; Run</button>
+		<button onclick="copy()">&#xf429; Copy Output </button>
+	</div>
+</section>
+
+<script>otp.js</script>

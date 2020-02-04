@@ -1,0 +1,80 @@
+{
+	"base": {
+		"projectFullName": "PWA.BlackC4t",
+		"projectShortName": "BlackC4t",
+		"stylesNamespace": "blackc4t",
+		"projectColour": "#282C34",
+		"isNavigation": true,
+		"precacheFiles": [
+			{
+				"fileName": "PWA.BlackC4t/"
+			},
+			{
+				"fileName": "PWA.BlackC4t/manifest.json"
+			},
+			{
+				"fileName": "PWA.BlackC4t/images/appicons/squircle-256.png"
+			},
+			{
+				"fileName": "PWA.BlackC4t/images/page/shiba-inu-wide.jpg"
+			},
+			{
+				"fileName": "PWA.BlackC4t/index.html"
+			},
+			{
+				"fileName": "PWA.BlackC4t/2kotp.html"
+			},
+			{
+				"fileName": "PWA.BlackC4t/public.html"
+			},
+			{
+				"fileName": "PWA.BlackC4t/password.html"
+			},
+			{
+				"fileName": "PWA.BlackC4t/scripts/otp.js"
+			},
+			{
+				"fileName": "PWA.BlackC4t/scripts/password.js"
+			},
+			{
+				"fileName": "PWA.BlackC4t/scripts/public.js"
+			},
+			{
+				"fileName": "css/theme/auto.css"
+			},
+			{
+				"fileName": "css/theme/black.css"
+			},
+			{
+				"fileName": "css/theme/dark.css"
+			},
+			{
+				"fileName": "css/theme/light.css"
+			},
+			{
+				"fileName": "css/main.css"
+			},
+			{
+				"fileName": "css/settings.css"
+			},
+			{
+				"fileName": "scripts/navbar.js"
+			},
+			{
+				"fileName": "scripts/script.js"
+			},
+			{
+				"fileName": "scripts/settings.js"
+			},
+			{
+				"fileName": "fonts/FiraSansNF.woff2"
+			}
+		]
+	},
+	"files": [
+		"index.sections.html",
+		"2kotp.sections.html",
+		"password.sections.html",
+		"public.sections.html"
+	]
+}
