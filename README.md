@@ -16,7 +16,7 @@ originally used brython to encrypt. Several redesigns as well
 as addition of a two key one time pad page, a simple
 password generator and a public key cryptography page.
 
-Find the site on https://FHPWA.github.io/blackc4t
+Find the site on https://FHPWA.github.io/blackc4t/
 
 
 ## Language information
