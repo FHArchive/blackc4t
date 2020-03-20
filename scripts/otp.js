@@ -1,34 +1,34 @@
 function otp(numberOfKeys) {
-    let charint, choice, inputstring, outstring, inputlength;
-    let keystring = [];
+    let charInt, choice, inputString, outString, inputLength;
+    let keyString = [];
     let keyIds = ["fieldkey", "fieldkey2"];
     for(let i = 0; i < numberOfKeys; i++){
-        keystring.push(document.getElementById(keyIds[i]).value.replace(/\s/g, ""));
+        keyString.push(document.getElementById(keyIds[i]).value.replace(/\s/g, ""));
     }
     choice = document.getElementById("rad").checked;
 
-    outstring = "";
-    inputstring = document.getElementById("input").value;
+    outString = "";
+    inputString = document.getElementById("input").value;
 
-    inputlength = inputstring.normalize().length;
-    for (let index = 0; (index < inputlength); index += 1) {
+    inputLength = inputString.normalize().length;
+    for (let index = 0; (index < inputLength); index += 1) {
         for(let i = 0; i < numberOfKeys; i++){
-            if ((index >= keystring[i].length)) {
-                keystring[i] += keystring[i];
+            if ((index >= keyString[i].length)) {
+                keyString[i] += keyString[i];
             }
         }
         let shift = 0;
         for(let i = 0; i < numberOfKeys; i++){
-            shift += keystring[i].charCodeAt(index);
+            shift += keyString[i].charCodeAt(index);
         }
         if ((choice === true)) {
-            charint = inputstring.charCodeAt(index) + shift;
+            charInt = inputString.charCodeAt(index) + shift;
         } else {
-            charint = inputstring.charCodeAt(index) - shift;
+            charInt = inputString.charCodeAt(index) - shift;
         }
-        outstring += String.fromCharCode(charint);
+        outString += String.fromCharCode(charInt);
 
 
     }
-    document.getElementById("output").value = outstring;
+    document.getElementById("output").value = outString;
 }

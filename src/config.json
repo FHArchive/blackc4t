@@ -1,43 +1,43 @@
 {
 	"base": {
-		"projectFullName": "PWA.BlackC4t",
+		"projectFullName": "blackc4t",
 		"projectShortName": "BlackC4t",
 		"stylesNamespace": "blackc4t",
 		"projectColour": "#282C34",
 		"isNavigation": true,
 		"precacheFiles": [
 			{
-				"fileName": "PWA.BlackC4t/"
+				"fileName": "blackc4t/"
 			},
 			{
-				"fileName": "PWA.BlackC4t/manifest.json"
+				"fileName": "blackc4t/manifest.json"
 			},
 			{
-				"fileName": "PWA.BlackC4t/images/appicons/squircle-256.png"
+				"fileName": "blackc4t/images/appicons/squircle-256.png"
 			},
 			{
-				"fileName": "PWA.BlackC4t/images/page/shiba-inu-wide.jpg"
+				"fileName": "blackc4t/images/page/shiba-inu-wide.jpg"
 			},
 			{
-				"fileName": "PWA.BlackC4t/index.html"
+				"fileName": "blackc4t/index.html"
 			},
 			{
-				"fileName": "PWA.BlackC4t/2kotp.html"
+				"fileName": "blackc4t/2kotp.html"
 			},
 			{
-				"fileName": "PWA.BlackC4t/public.html"
+				"fileName": "blackc4t/public.html"
 			},
 			{
-				"fileName": "PWA.BlackC4t/password.html"
+				"fileName": "blackc4t/password.html"
 			},
 			{
-				"fileName": "PWA.BlackC4t/scripts/otp.js"
+				"fileName": "blackc4t/scripts/otp.js"
 			},
 			{
-				"fileName": "PWA.BlackC4t/scripts/password.js"
+				"fileName": "blackc4t/scripts/password.js"
 			},
 			{
-				"fileName": "PWA.BlackC4t/scripts/public.js"
+				"fileName": "blackc4t/scripts/public.js"
 			},
 			{
 				"fileName": "css/main.css"

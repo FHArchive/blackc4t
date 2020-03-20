@@ -16,7 +16,7 @@ function generatePrime(min, max) {
 	return getRandomInt(Math.floor(min / 2), Math.floor(max / 2)) * 2 + 1;
 }
 
-// finds the Highest Common Factor or argument a and arguement b
+// finds the Highest Common Factor or argument a and argument b
 function highestCommonFactor(a, b) {
 	if (b === 0) {
 		return a;
@@ -38,13 +38,13 @@ function modInverse(a, m) {
 
 
 // https://stackoverflow.com/questions/5989429/pow-and-mod-function-optimization
-function expmod(base, exp, mod) {
+function expMod(base, exp, mod) {
 	if (exp === 0) {return 1;}
 	if (exp % 2 === 0) {
-		return Math.pow(expmod(base, (exp / 2), mod), 2) % mod;
+		return Math.pow(expMod(base, (exp / 2), mod), 2) % mod;
 	}
 	else {
-		return (base * expmod(base, (exp - 1), mod)) % mod;
+		return (base * expMod(base, (exp - 1), mod)) % mod;
 	}
 }
 
@@ -53,7 +53,7 @@ function expmod(base, exp, mod) {
 let globalPrivateKeyExponent;
 
 function start() {
-	let prime0, prime1, isprime, keyModulus, publicKeyExponent, privateKeyExponent, outstring, charint, inputlength;
+	let prime0, prime1, isPrime, keyModulus, publicKeyExponent, privateKeyExponent, outString, charInt, inputLength;
 
 	// check for existing keys
 	let check = document.getElementById("mod").value.replace(/\s/g, "");
@@ -77,15 +77,15 @@ function start() {
 		// generate new keys
 		do {
 			prime0 = generatePrime(64, 256);
-			isprime = isPrime(prime0);
+			isPrime = isPrime(prime0);
 		}
-		while (isprime === false);
+		while (isPrime === false);
 
 		do {
 			prime1 = generatePrime(64, 256);
-			isprime = isPrime(prime1);
+			isPrime = isPrime(prime1);
 		}
-		while (isprime === false);
+		while (isPrime === false);
 
 
 		//Generate the key modulus - this is used in the encryption and decryption methods
@@ -109,21 +109,21 @@ function start() {
 
 	// get input
 	let encrypt = document.getElementById("encrypt").checked;
-	let inputstring = document.getElementById("input").value;
-	outstring = "";
-	inputlength = inputstring.normalize().length;
+	let inputString = document.getElementById("input").value;
+	outString = "";
+	inputLength = inputString.normalize().length;
 
-	for (let index = 0; (index < inputlength); index += 1) {
+	for (let index = 0; (index < inputLength); index += 1) {
 		if ((encrypt === true)) {
-			charint = expmod(inputstring.charCodeAt(index), publicKeyExponent, keyModulus);
+			charInt = expMod(inputString.charCodeAt(index), publicKeyExponent, keyModulus);
 		} else {
-			charint = expmod(inputstring.charCodeAt(index), privateKeyExponent, keyModulus);
+			charInt = expMod(inputString.charCodeAt(index), privateKeyExponent, keyModulus);
 		}
-		outstring += String.fromCharCode(charint);
+		outString += String.fromCharCode(charInt);
 
 
 	}
-	document.getElementById("output").value = outstring;
+	document.getElementById("output").value = outString;
 
 	document.getElementById("mod").value = keyModulus;
 	document.getElementById("public").value = publicKeyExponent;

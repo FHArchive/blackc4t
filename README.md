@@ -1,16 +1,12 @@
-<p float="left">
-<img src="https://img.shields.io/github/languages/top/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="Github top language">
-<img src="https://img.shields.io/codacy/grade/39cdf0f7471e42c1ab41cb6397fc5165.svg?style=flat-square" alt="Codacy grade">
-<img src="https://img.shields.io/codacy/coverage/39cdf0f7471e42c1ab41cb6397fc5165.svg?style=flat-square" alt="Codacy coverage">
-<img src="https://img.shields.io/github/repo-size/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="Repository size">
-<img src="https://img.shields.io/github/issues/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="Issues">
-<img src="https://img.shields.io/github/license/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="License">
-<img src="https://img.shields.io/github/commit-activity/m/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="Commit activity">
-<img src="https://img.shields.io/github/last-commit/fredhappyface/PWA.BlackC4t.svg?style=flat-square" alt="Last commit">
-</p>
+[![Github top language](https://img.shields.io/github/languages/top/FHPWA/BlackC4t.svg?style=for-the-badge)](../../)
+[![Codacy grade](https://img.shields.io/codacy/grade/[codacy-proj-id].svg?style=for-the-badge)](https://www.codacy.com/manual/FHPWA/BlackC4t)
+[![Repository size](https://img.shields.io/github/repo-size/FHPWA/BlackC4t.svg?style=for-the-badge)](../../)
+[![Issues](https://img.shields.io/github/issues/FHPWA/BlackC4t.svg?style=for-the-badge)](../../issues)
+[![License](https://img.shields.io/github/license/FHPWA/BlackC4t.svg?style=for-the-badge)](/LICENSE.md)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/FHPWA/BlackC4t.svg?style=for-the-badge)](../../commits/master)
+[![Last commit](https://img.shields.io/github/last-commit/FHPWA/BlackC4t.svg?style=for-the-badge)](../../commits/master)
 
-
-# PWA.BlackC4t
+# BlackC4t
 
 <img src="readme-assets/icons/name.png" alt="Project Icon" width="750">
 
@@ -20,11 +16,11 @@ originally used brython to encrypt. Several redesigns as well
 as addition of a two key one time pad page, a simple
 password generator and a public key cryptography page.
 
-Find the site on https://FredHappyface.github.io/PWA.BlackC4t
+Find the site on https://FHPWA.github.io/blackc4t
 
 
 ## Language information
-PWA.BlackC4t is built with HTML5, CSS3 and JavaScript
+BlackC4t is built with HTML5, CSS3 and JavaScript
 
 ## Changelog
 See the [CHANGELOG](/CHANGELOG.md) for more information.
