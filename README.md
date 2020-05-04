@@ -1,5 +1,5 @@
 [![Github top language](https://img.shields.io/github/languages/top/FHPWA/BlackC4t.svg?style=for-the-badge)](../../)
-[![Codacy grade](https://img.shields.io/codacy/grade/[codacy-proj-id].svg?style=for-the-badge)](https://www.codacy.com/manual/FHPWA/BlackC4t)
+[![Codacy grade](https://img.shields.io/codacy/grade/8de3189707f948a9b154ff0bbd4f06a6.svg?style=for-the-badge)](https://www.codacy.com/gh/FHPWA/BlackC4t)
 [![Repository size](https://img.shields.io/github/repo-size/FHPWA/BlackC4t.svg?style=for-the-badge)](../../)
 [![Issues](https://img.shields.io/github/issues/FHPWA/BlackC4t.svg?style=for-the-badge)](../../issues)
 [![License](https://img.shields.io/github/license/FHPWA/BlackC4t.svg?style=for-the-badge)](/LICENSE.md)
