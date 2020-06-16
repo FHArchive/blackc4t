@@ -23,5 +23,51 @@
 			"type": "image/png",
 			"purpose": "maskable"
 		}
+	],
+	"shortcuts": [
+		{
+			"name": "One Key",
+			"url": "blackc4t/index.html",
+			"icons": [
+				{
+					"src": "/blackc4t/images/shorticons/index.png",
+					"type": "image/png",
+					"purpose": "any"
+				}
+			]
+		},
+		{
+			"name": "Two Key",
+			"url": "blackc4t/2kotp.html",
+			"icons": [
+				{
+					"src": "/blackc4t/images/shorticons/2kotp.png",
+					"type": "image/png",
+					"purpose": "any"
+				}
+			]
+		},
+		{
+			"name": "Password Generator",
+			"url": "blackc4t/password.html",
+			"icons": [
+				{
+					"src": "/blackc4t/images/shorticons/password.png",
+					"type": "image/png",
+					"purpose": "any"
+				}
+			]
+		},
+		{
+			"name": "Public Key Cryptography",
+			"url": "blackc4t/public.html",
+			"icons": [
+				{
+					"src": "/blackc4t/images/shorticons/public.png",
+					"type": "image/png",
+					"purpose": "any"
+				}
+			]
+		},
 	]
 }

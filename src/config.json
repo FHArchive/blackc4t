@@ -1,8 +1,8 @@
 {
 	"base": {
-		"projectFullName": "blackc4t",
-		"projectShortName": "BlackC4t",
+		"projectName": "BlackC4t",
 		"stylesNamespace": "blackc4t",
+		"namespace": "blackc4t",
 		"projectColour": "#282C34",
 		"isNavigation": true,
 		"precacheFiles": [
@@ -17,18 +17,6 @@
 			},
 			{
 				"fileName": "blackc4t/images/page/shiba-inu-wide.jpg"
-			},
-			{
-				"fileName": "blackc4t/index.html"
-			},
-			{
-				"fileName": "blackc4t/2kotp.html"
-			},
-			{
-				"fileName": "blackc4t/public.html"
-			},
-			{
-				"fileName": "blackc4t/password.html"
 			},
 			{
 				"fileName": "blackc4t/scripts/otp.js"
