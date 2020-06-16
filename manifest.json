@@ -27,7 +27,7 @@
 	"shortcuts": [
 		{
 			"name": "One Key",
-			"url": "blackc4t/index.html",
+			"url": "/blackc4t/index.html",
 			"icons": [
 				{
 					"src": "/blackc4t/images/shorticons/index.png",
@@ -38,7 +38,7 @@
 		},
 		{
 			"name": "Two Key",
-			"url": "blackc4t/2kotp.html",
+			"url": "/blackc4t/2kotp.html",
 			"icons": [
 				{
 					"src": "/blackc4t/images/shorticons/2kotp.png",
@@ -49,7 +49,7 @@
 		},
 		{
 			"name": "Password Generator",
-			"url": "blackc4t/password.html",
+			"url": "/blackc4t/password.html",
 			"icons": [
 				{
 					"src": "/blackc4t/images/shorticons/password.png",
@@ -60,7 +60,7 @@
 		},
 		{
 			"name": "Public Key Cryptography",
-			"url": "blackc4t/public.html",
+			"url": "/blackc4t/public.html",
 			"icons": [
 				{
 					"src": "/blackc4t/images/shorticons/public.png",
