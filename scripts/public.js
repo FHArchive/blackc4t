@@ -53,7 +53,7 @@ function expMod(base, exp, mod) {
 let globalPrivateKeyExponent;
 
 function start() {
-	let prime0, prime1, isPrime, keyModulus, publicKeyExponent, privateKeyExponent, outString, charInt, inputLength;
+	let prime0, prime1, prime, keyModulus, publicKeyExponent, privateKeyExponent, outString, charInt, inputLength;
 
 	// check for existing keys
 	let check = document.getElementById("mod").value.replace(/\s/g, "");
@@ -77,15 +77,15 @@ function start() {
 		// generate new keys
 		do {
 			prime0 = generatePrime(64, 256);
-			isPrime = isPrime(prime0);
+			prime = isPrime(prime0);
 		}
-		while (isPrime === false);
+		while (prime === false);
 
 		do {
 			prime1 = generatePrime(64, 256);
-			isPrime = isPrime(prime1);
+			prime = isPrime(prime1);
 		}
-		while (isPrime === false);
+		while (prime === false);
 
 
 		//Generate the key modulus - this is used in the encryption and decryption methods
