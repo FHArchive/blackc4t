@@ -33,7 +33,7 @@ function runTheRest() {
 // get words from a text file and add these to the output - run this when the "run" button is clicked
 function start() {
       var rawFile = new XMLHttpRequest();
-      rawFile.open("GET", "https://fredhappyface.com/blackc4t/resources/10k.txt", false);
+      rawFile.open("GET", "https://fhpwa.github.io/blackc4t/resources/10k.txt", false);
       rawFile.onreadystatechange = function ()
       {
             if(rawFile.readyState === 4)

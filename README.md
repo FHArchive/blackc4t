@@ -16,7 +16,7 @@ originally used brython to encrypt. Several redesigns as well
 as addition of a two key one time pad page, a simple
 password generator and a public key cryptography page.
 
-Find the site on https://fredhappyface.com/blackc4t/
+Find the site on https://fhpwa.github.io/blackc4t/
 
 
 ## Language information
